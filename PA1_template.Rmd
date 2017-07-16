@@ -41,7 +41,7 @@ Median: `r medianstepsbyday`
 Average daily pattern is presented as a time series plot of the interval as below
 ```{r}
 avgactivitybyinterval<-aggregate(.~interval,activities,mean)
-plot(avgactivitybyinterval$interval,avgactivitybyinterval$steps,type="l",ylab = "Steps", xlab = "Day", las=2, main = "Time series plot of average steps taken")
+plot(avgactivitybyinterval$interval,avgactivitybyinterval$steps,type="l",ylab = "Steps", xlab = "Interval", las=2, main = "Time series plot of average steps taken")
 ```
 
 The 5-minute interval that, on average, contains the maximum number of steps is `r avgactivitybyinterval$interval[which.max(avgactivitybyinterval$steps)]`
