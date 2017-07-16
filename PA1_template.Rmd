@@ -1,9 +1,5 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
+Reproducible Research: Peer Assessment 1
+==============================================
 *This Markdown document uses the template provided as part of the assignment and completes the sections included there*
 
 ## Introduction
